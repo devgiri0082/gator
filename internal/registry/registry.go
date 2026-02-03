@@ -80,7 +80,7 @@ func New(config *config.Config, db *database.Queries, client *rssfetcher.Client)
 	r.register(Command{
 		Name:        "register",
 		Description: "register a user",
-		Usage:       "Usage gator register <username>",
+		Usage:       "usage: gator register <username>",
 		ArgCount:    1,
 		callback: func(ctx context.Context, args []string) error {
 			username := args[0]
