@@ -9,9 +9,5 @@
 
 ### Command
 
-- Download Dependencies
-  `go mod download`
-- Build Binary
-  `go build -o gator main.go`
 - Run
-  `go run gator`
+  `go install github.com/devgiri0082/gator`
